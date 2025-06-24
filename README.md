@@ -33,16 +33,10 @@ ARANILAN = "aranacak_kullanici"
 💻 Kurulum ve Kullanım
 Bu projeyi klonlayın:
 
-bash
-Kopyala
-Düzenle
 git clone https://github.com/kullaniciadi/instagram-comment-liker.git
 cd instagram-comment-liker
 Gereksinimleri yükleyin:
 
-bash
-Kopyala
-Düzenle
 pip install selenium
 Firefox WebDriver sisteminizde kurulu olmalıdır. GeckoDriver sayfasından işletim sisteminize uygun sürümü indirip, çalıştırılabilir dosyayı sistem PATH’ine ekleyin.
 
@@ -50,16 +44,10 @@ loginInfo.py dosyasını oluşturun ve bilgilerinizi girin (detay yukarıda).
 
 Python scriptini çalıştırın:
 
-bash
-Kopyala
-Düzenle
 python script_adi.py
 📸 Hedef Gönderi URL'si
 Otomasyonun yorum beğenme işlemi yaptığı gönderi URL'si scriptin içinde şu şekilde ayarlanmıştır:
 
-python
-Kopyala
-Düzenle
 post_url = "https://www.instagram.com/p/C5ldpkdtaQS/?img_index=1"
 Bu URL’yi kendi hedefinize göre güncelleyebilirsiniz.
 
